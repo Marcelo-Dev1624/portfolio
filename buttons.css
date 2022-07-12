@@ -1,0 +1,131 @@
+#wrapper{
+    color:#fff;
+  
+  }
+  
+  .hover-fx-setup-btn{
+    border-radius: 0.5em;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: 300ms;
+  }
+  
+  .hover-fx-setup-btn::after {
+    pointer-events: none;
+    position: absolute;
+    border-radius: 0.5em;
+    width: 100%;
+    height: 100%;
+    content: '';
+    box-sizing: content-box;
+    box-shadow: 0 0 0 3px #fff;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 300ms;
+  
+  }
+  
+  
+  .hover-fx-setup-btn:hover{
+    background-color: #fff;
+    color: #151515;
+    
+  
+  }
+  
+  
+  .hover-fx-setup-btn:hover::after{
+    opacity: 1;
+    transform: scale(1.)
+  }
+  
+
+  .hover-fx-port-btn{
+    border-radius: 0.5em;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: 300ms;
+  }
+  
+  .hover-fx-port-btn::after {
+    pointer-events: none;
+    position: absolute;
+    border-radius: 0.5em;
+    width: 100%;
+    height: 100%;
+    content: '';
+    box-sizing: content-box;
+    box-shadow: 0 0 0 3px #fff;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 300ms;
+  
+  }
+  
+  
+  .hover-fx-port-btn:hover{
+    background-color: #fff;
+    color: #151515;
+    
+  
+  }
+  
+  
+  .hover-fx-port-btn:hover::after{
+    opacity: 1;
+    transform: scale(1.)
+  }
+  
+
+  .hover-fx-buyme-btn{
+    border-radius: 0.5em;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: 300ms;
+  }
+  
+  .hover-fx-buyme-btn::after {
+    pointer-events: none;
+    position: absolute;
+    border-radius: 0.5em;
+    width: 100%;
+    height: 100%;
+    content: '';
+    box-sizing: content-box;
+    box-shadow: 0 0 0 3px #fff;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 300ms;
+  
+  }
+  
+  
+  .hover-fx-buyme-btn:hover{
+    background-color: #fff;
+    color: #151515;
+    
+  
+  }
+  
+  
+  .hover-fx-buyme-btn:hover::after{
+    opacity: 1;
+    transform: scale(1.)
+  }
+  
+
+
+
+
