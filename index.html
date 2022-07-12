@@ -4,16 +4,21 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width inicial-scale=1">
+
+        <!--Linking css files-->
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="socials.css">
         <link rel="stylesheet" href="buttons.css">
+        
+        <!--Google fonts API-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+        <!--Font Awesome, icons API-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
         <link rel="apple-touch-icon" href="img/favicon-w.png" type=image/x-icon>
         <link rel="icon" href="img/favicon-w.png" type="=image/x-icon">
-
-        <script type="module" src="js/l-footer.js"></script>
-        <script type="module" src="js/l-header.js"></script>
-        <script type="module" src="js/l-spacer.js"></script>
 
 
         <title> Marcelo Villalobos - Portfolio </title>
@@ -25,7 +30,7 @@
         <header>
 
             <a href="#">
-                <p style="display:flex;padding: 1rem; color: #fff;" class="text"> < - Marcelo Dev - > </p>
+                <p style="display:flex;padding: 1rem; color: #fff; font-family: 'Poppins';" class="text;"> < - Marcelo Dev - > </p>
             </a>
 
         </header>
@@ -86,38 +91,43 @@
         <!-- Container for the pages buttons -->
 
         <div id="wrapper">
+            
+
+        
+
+                <a href="#projects-portfolio">
+                    <div class="link-btn hover-fx-port-btn" id="portfolio-button">
+                        <p class="text"> Check my Portfolio</p>
+                    </div>
+
+                </a>
+
+            <l-spacer height="1rem">
+                    <div style="height:1rem"></div>
+            </l-spacer>
+
             <a href="#setup">
-                <div class="link-btn hover-fx-setup-btn" id="setup-button">
-                    <p class="text"> Stuff and Setup </p>
+                <div class="link-btn hover-fx-setup-btn" id="portfolio-button">
+                    <p class="text"> Setup and Stuff</p>
                 </div>
 
             </a>
 
-        <l-spacer height="1rem">
-                <div style="height:1rem"></div>
-        </l-spacer>
 
-            <a href="#projects-portfolio">
-                <div class="link-btn hover-fx-port-btn" id="portfolio-button">
-                    <p class="text"> Check my Portfolio</p>
-                </div>
+            <l-spacer height="1rem">
+                    <div style="height:1rem"></div>
+            </l-spacer>
 
-            </a>
+                <a href="https://www.buymeacoffee.com/dd4f59ypgwh">
+                    <div class="link-btn hover-fx-buyme-btn" id="buy-me-button">
+                        <p class="text"> Buy me a RedBull </p>
+                    </div>
 
-        <l-spacer height="1rem">
-                <div style="height:1rem"></div>
-        </l-spacer>
+                </a>
 
-            <a href="#buy-me-a-redbull">
-                <div class="link-btn hover-fx-buyme-btn" id="buy-me-button">
-                    <p class="text"> Buy me a RedBull </p>
-                </div>
-
-            </a>
-
-        <l-spacer height="1rem">
-                <div style="height:1rem"></div>
-        </l-spacer>
+            <l-spacer height="1rem">
+                    <div style="height:1rem"></div>
+            </l-spacer>
 
 
         </div>
