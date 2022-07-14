@@ -1,0 +1,14 @@
+.setup-list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .setup-list > div > a{
+    color:#fff;
+    font-size: 16px;
+  }
+
+  .
