@@ -51,17 +51,19 @@ p,a{
     width: 15em;
     height: 14em;
     border-radius: 100%;
-    border: #fff solid 1.5px;
+
 
 }
 
-.hello{
-font-size:1.2rem;
+.Name{
+font-size: 1.2rem;
 }
 
 .description{
+    gap: 15px;
     font-size: 1.4rem;
     font-weight: 600;
+    
 }
 
 .title {
