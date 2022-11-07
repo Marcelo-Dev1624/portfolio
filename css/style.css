@@ -110,25 +110,25 @@ font-size: 1.2rem;
 
 @media only screen and (min-width: 600px) {
     #main-picture {
-      width: 68%;
+      width: 55%;
     }
   }
   
   @media only screen and (min-width: 768px) {
     #main-picture {
-      width: 68%;
+      width: 60%;
     }
   }
   
   @media only screen and (min-width: 992px) {
     #main-picture {
-      width: 55%;
+      width: 60%;
     }
   }
   
   @media only screen and (min-width: 1200px) {
     #main-picture {
-      width: 40%;
+      width: 30%;
     }
   }
   
