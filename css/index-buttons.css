@@ -34,11 +34,13 @@
   
   .link-btn:hover{
     background-color: #fff;
-    color: #151515 
+    color: #151515;
+    
   }
 
   .link-btn:hover::after{
     opacity: 1;
+    transform: scale(1.2);
   }
 
 
