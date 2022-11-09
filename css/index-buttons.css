@@ -38,10 +38,10 @@
     
   }
 
-  .link-btn:hover::after{
+  /* not necesarry atm
+    .link-btn:hover::after{
     opacity: 1;
-    transform: scale(1.2);
-  }
+  }*/
 
 
   #setup-button {
