@@ -32,8 +32,8 @@ header{
 
   width: 100%;
   display: block;
-  position: fixed;
-  block-size: 3.3em;
+  position: sticky;
+  block-size: 3.5rem;
   margin: 0px; 
   border-width: 0px; 
   color:#fff; 
