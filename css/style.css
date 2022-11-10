@@ -22,7 +22,7 @@ body{
     text-align: center;
     min-height: 100vh;
     margin: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Nunito', sans-serif;
 
 }
 
@@ -163,6 +163,7 @@ font-size: 1.6rem;
 
   @media only screen and (min-width: 600px) {
     main {
+      font-family: 'Nunito', sans-serif;
       display: block;
       margin-left: auto;
       margin-right: auto;
@@ -172,6 +173,7 @@ font-size: 1.6rem;
   
   @media only screen and (min-width: 768px) {
     main {
+      font-family: 'Nunito', sans-serif;
       display: block;
       margin-left: auto;
       margin-right: auto;
