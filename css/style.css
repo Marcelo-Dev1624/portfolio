@@ -41,7 +41,7 @@ main{
 }
 
 .inner-header{
-  width: 1100px;
+  max-width: 1100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -71,8 +71,8 @@ a:hover{
 
 
 #main-picture{
-    width: 15em;
-    height: 14em;
+    width: 16rem;
+    height: 15rem;
     border-radius: 100%;
 
 
@@ -138,25 +138,25 @@ font-size: 1.6rem;
 
 @media only screen and (min-width: 600px) {
     #main-picture {
-      width: 55%;
+      width: 45%;
     }
   }
   
   @media only screen and (min-width: 768px) {
     #main-picture {
-      width: 60%;
+      width: 50%;
     }
   }
   
   @media only screen and (min-width: 992px) {
     #main-picture {
-      width: 60%;
+      width: 40%;
     }
   }
   
   @media only screen and (min-width: 1200px) {
     #main-picture {
-      width: 30%;
+      width: 28%;
     }
   }
   
@@ -166,7 +166,7 @@ font-size: 1.6rem;
       display: block;
       margin-left: auto;
       margin-right: auto;
-      width: 60%;
+      width:75%;
     }
   }
   
@@ -175,7 +175,7 @@ font-size: 1.6rem;
       display: block;
       margin-left: auto;
       margin-right: auto;
-      width: 48%;
+      width: 60%;
     }
   }
   
@@ -184,7 +184,7 @@ font-size: 1.6rem;
       display: block;
       margin-left: auto;
       margin-right: auto;
-      width: 35%;
+      width: 60%;
     }
   }
   
@@ -193,7 +193,7 @@ font-size: 1.6rem;
       display: block;
       margin-left: auto;
       margin-right: auto;
-      width: 40%;
+      width: 45%;
     }
   }
 
