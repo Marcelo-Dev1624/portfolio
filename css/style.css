@@ -25,9 +25,13 @@ body{
     font-family: 'Nunito', sans-serif;
 }
 
-body.dark{
+body .light{
   background-color: white;
 
+}
+
+.text .light{
+  color: rgb(25,25,25);
 }
 
 main{
@@ -170,17 +174,15 @@ font-size: 1.6rem;
 
   @media only screen and (min-width: 600px) {
     main {
-      font-family: 'Nunito', sans-serif;
       display: block;
       margin-left: auto;
       margin-right: auto;
-      width:75%;
+      width:70%;
     }
   }
   
   @media only screen and (min-width: 768px) {
     main {
-      font-family: 'Nunito', sans-serif;
       display: block;
       margin-left: auto;
       margin-right: auto;
