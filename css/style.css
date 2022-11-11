@@ -5,10 +5,16 @@
     --mint:rgb(0, 222, 181);
 }
 
+.lightMode{
+  --black:#fff;
+  --white:rgb(25,25,25);
+  --cyan:rgb(0, 194, 215);
+  --mint:rgb(0, 222, 181);
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
-@import url(css/dark-index-socials.css);
-@import url(css/dark-index-buttons.css);
+@import url(css/index-socials.css);
+@import url(css/index-buttons.css);
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
 body{
@@ -23,7 +29,6 @@ body{
     font-family: 'Nunito', sans-serif;
     transition: linear 200ms;
     
-
 }
 
 
@@ -66,7 +71,7 @@ main{
 }
 
 
-.style-btn{
+/*.style-btn{
   padding: .8rem;
   background-color: rgb(55,55,55);
   border: none;
@@ -84,7 +89,7 @@ main{
 
 .style-btn:last-child:hover{
   color: rgb(35,35,35);
-}
+}*/
 
 
 
@@ -94,7 +99,7 @@ main{
 
 
 p,a {
-  color: white ;
+  color: var(--white) ;
   text-decoration: none;
   transition: 200ms;
   margin: 0;
