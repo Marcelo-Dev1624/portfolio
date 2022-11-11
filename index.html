@@ -7,11 +7,13 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="color-scheme" content="light dark">
 
-        <!--Linking css files-->
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/index-socials.css">
-        <link rel="stylesheet" href="css/index-buttons.css">
+        <!--Linking dark css files-->
+        <link id="style" rel="stylesheet" href="css/darkStyle.css">
+        <link rel="stylesheet" href="css/dark-index-socials.css">
+        <link rel="stylesheet" href="css/dark-index-buttons.css">
         <link rel="stylesheet" href="css/darkModeToggle.css">
+
+      
 
         <style>
             :root{--mint:rgb(0, 222, 181)}
@@ -29,16 +31,18 @@
 
         <!--Font Awesome, icons API-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
         <link rel="apple-touch-icon" href="img/favicon-w.png" type=image/x-icon>
         <link rel="icon" href="img/favicon-w.png" type="=image/x-icon">
 
-        <script src="/toggle.js"></script>
+        <script src="/portfolio/toggle.js"></script>
 
 
         <title> MarceloDev </title>
     </head>
 
-    <body class="light">
+
+    <body>
 
     
         <div class="header">
@@ -49,16 +53,24 @@
                     <a href="index.html" class="text">
                         - Marcelo<span style="color:var(--mint)">Dev</span> -
                     </a>
-
-                    
-                    
                 </div>
 
-                <input type="checkbox" class="checkbox" id="checkbox">
+                <!--<button class="style-btn" onclick="toggleStyle('/dark-css/darkStyle.css')">
+                    <i class="fa-solid fa-sun"></i>
+                </button>
+                        
+                <button class="style-btn" onclick="toggleStyle('/light-css/lightStyle.css')">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+            -->
+
+                
+                    <input type="checkbox" onchange="toggleStyle('css/lightStyle.css')" class="checkbox" id="checkbox">
                         <label class="label" for="checkbox">
                             <i class="fa-solid fa-sun"></i>
                             <i class="fas fa-moon"></i>
                     <div class="ball"></div>
+                
 
                 
             </div>
@@ -71,7 +83,7 @@
 
             <l-spacer height="1rem">
                 <div style="height:1rem"></div>
-        </l-spacer>
+            </l-spacer>
 
     
         <main>
@@ -81,7 +93,7 @@
                 <div style="height:1rem"></div>
         </l-spacer>
 
-            <p class="Name">
+            <p class="Name text ">
                - Marcelo Villalobos -
             </p>
 
@@ -90,15 +102,15 @@
         </l-spacer>
 
             <div class="description"> 
-                <p>- Software Engineering Student - </p> 
+                <p class="">- Software Engineering Student - </p> 
 
                     <div style="height:.5rem"></div>
 
 
-                <p>
+                <p class="">
                     
-                    <i class="fa-solid fa-location-dot" style="margin-right: .2rem;"></i>
-                    Alajuela, Costa Rica 
+                    <i class="fa-solid fa-location-dot " style="margin-right: .2rem;"></i>
+                       Alajuela, Costa Rica 
                 </p>
                 
                 

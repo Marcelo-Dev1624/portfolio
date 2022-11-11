@@ -1,7 +1,21 @@
-const chk = document.getElementById('checkbox');
+function toggleStyle(sheet)
+{
+    sheet=document.getElementById('style').setAttribute('href', sheet);
+};
 
-chk.addEventListener('change', () => {
-	if (this.chk) {
-	document.body.classList.toggle('light');
-	}
-});
+
+/*function toggleDarkMode()
+{
+    
+    var body = document.querySelector('body');
+    var paragraph = document.querySelector('p');
+    var a = document.querySelector('a');
+    
+    //paragraph.classList.toggle("light");
+    a.classList.toggle("light");
+    body.classList.toggle("light");
+}
+
+toggleDarkMode();*/
+
+

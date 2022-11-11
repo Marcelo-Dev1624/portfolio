@@ -1,7 +1,17 @@
 @import url(style.css);
 
+.root{
+    --black:rgb(25,25,25);
+    --white:#fff;
+    --cyan:rgb(0, 194, 215);
+    --mint:rgb(0, 222, 181);
+  
+
+}
+
 .label{
     background-color: white;
+    border: solid rgb(35,35,35);
     display: flex;
     float: right;
     height: 1rem;
@@ -13,19 +23,21 @@
     position: relative;
     transition:  300ms ;
     margin-right: 2.5rem;
+    cursor: pointer;
 }
 
 .ball{
     position: absolute;
     height: 25px;
     width: 25px;
-    background-color: rgb(25,25,25);
+    background-color: rgb(35,35,35);
     border-radius: 50%;
     transition: transform 0.1s linear;
 }
 
 .fa-moon{
-    color: rgb(25,25,25);
+    color: rgb(35,35,35);
+    
     font-size: 16px;
 }
 
@@ -40,7 +52,8 @@
 }
 
 .checkbox:checked + .label{
-    background-color: rgb(25,25,25);
+    background-color: rgb(35,35,35);
+    border: solid white;
     
 
 }
