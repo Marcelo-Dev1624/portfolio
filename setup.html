@@ -9,7 +9,16 @@
 
         <!--Stylesheets-->
 
-        <link rel="stylesheet" href="css/setup-style.css">
+        <link rel="stylesheet" href="css/dark-setup-style.css">
+
+        <style>
+            :root{
+                   --black:rgb(25,25,25);
+                   --white:#fff;
+                   --cyan:rgb(0, 194, 215);
+                   --mint:rgb(0, 222, 181);
+               }
+       </style>
 
 
         <!--Google fonts API-->
@@ -29,17 +38,38 @@
 
     <body>
 
-        <l-header>
-                <header>
+        <div class="header">
 
-                    <a href="index.html">
-                        <p style="display:flex;padding: 1rem; color: #fff;" class="text;"> < - Marcelo Dev - > </p>
+            <div class="inner-header">
+    
+                <div class="logo">
+                    <a href="index.html" class="text">
+                        - Marcelo<span style="color:var(--mint)">Dev</span> -
                     </a>
+                </div>
 
-                    
+                <!--<button class="style-btn" onclick="toggleStyle('/dark-css/darkStyle.css')">
+                    <i class="fa-solid fa-sun"></i>
+                </button>
+                        
+                <button class="style-btn" onclick="toggleStyle('/light-css/lightStyle.css')">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+            -->
 
-                </header>
-            </l-header>
+                
+                    <input type="checkbox" onchange="toggleStyle('css/lightStyle.css')" class="checkbox" id="checkbox">
+                        <label class="label" for="checkbox">
+                            <i class="fa-solid fa-sun"></i>
+                            <i class="fas fa-moon"></i>
+                    <div class="ball"></div>
+                
+
+                
+            </div>
+        </div>
+        
+        <hr style="margin-top: 0; width: 100%; position: sticky;">
 
     <main>
         
