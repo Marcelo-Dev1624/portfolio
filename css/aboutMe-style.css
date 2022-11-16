@@ -1,0 +1,10 @@
+@import url(style.css);
+@import url(darkModeToggle.css);
+
+.root{
+    --black:rgb(25,25,25);
+    --white:#fff;
+    --cyan:rgb(0, 194, 215);
+    --mint:rgb(0, 222, 181);
+}
+
