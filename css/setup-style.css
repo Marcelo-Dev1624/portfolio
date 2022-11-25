@@ -8,13 +8,54 @@
   --mint:rgb(0, 222, 181);
 }
 
+.header{
+  width: 100%;
+  display: block;
+  height: 4.5em;
+  margin: 0;
+  background-color: rgb(35,35,35);
+  position: sticky;
+  z-index: 100;
+}
+
+.inner-header{
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  margin: auto;
+  position: sticky;
+  z-index: 100;
+}
+
+.logo{
+  float: left; 
+  display: flex;
+  text-align: center;
+  padding: 1rem;
+  margin-right: auto;
+  margin-left: 2.5rem;
+}
+
+
+.items-container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 
 .setup-item{
     list-style: none;
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin: 1rem;
   }
   
   .setup-item  > a{
@@ -24,15 +65,15 @@
 
   .item > p{
     color: #fff;
-    font-size: 24px;
+    font-size: 22px;
     text-align: center;
     padding: 0.2rem 1rem 0.5rem 1rem;
   }
 
 
 .item > img{
-  width: 100%;
-  border-width: 0 0 1px 0;
+  width: 22rem;
+  border-width: 0 0 2px 0;
   border-radius: 0.5rem 0.5rem 0rem 0rem;
 }
 
@@ -41,4 +82,46 @@
   border-color: rgb(94, 93, 93);
   border-radius: 0.5rem;
   border-width: 1px;
+}
+
+
+/* optimizations */
+
+
+
+@media only screen and (min-width: 600px) {
+  main {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:70%;
+  }
+
+}
+
+@media only screen and (min-width: 768px) {
+  main {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  main {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  main {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
 }
