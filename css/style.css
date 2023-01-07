@@ -6,9 +6,8 @@
 }
 
 .lightMode{
-  --black:#fff;
-  --white:rgb(25,25,25);
-  --cyan:rgb(0, 194, 215);
+  --white-on-black:#fff;
+  --black-on-white:rgb(25,25,25);
   --mint:rgb(0, 222, 181);
 }
 
